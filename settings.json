@@ -1,0 +1,82 @@
+{
+    "window.zoomLevel": 0,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.home": "C:\\Program Files\\Java\\jdk1.8.0_241",
+    "java.help.firstView": "gettingStarted",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "git.suggestSmartCommit": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "workbench.sideBar.location": "left",
+    "workbench.colorCustomizations": {
+                    // left menu
+        "activityBar.inactiveForeground": "#019c85",
+        "activityBar.foreground": "#0f5f4a",
+        "activityBar.activeBorder": "#00ffbb",
+        "activityBar.activeFocusBorder": "#00e5ff",
+        "activityBar.background": "#1a1919",
+                    // left menu badge
+        "activityBarBadge.background": "#00f2ff",
+        "activityBarBadge.foreground": "#000000",
+                    //navbar
+        "menubar.selectionForeground": "#0f5f4a",
+        "titleBar.activeBackground": "#1a1919",
+        "titleBar.activeForeground": "#019c85",
+                    //menu list
+        "menu.separatorBackground": "#048663",
+        "menu.selectionForeground": "#00ffbb",
+        "menu.foreground": "#019c85",
+        "list.highlightForeground": "#00ffbb",
+        "list.activeSelectionForeground": "#00ffbb",
+        "list.inactiveSelectionForeground": "#048663",
+        "list.activeSelectionBackground": "#1a1919",
+                    //extensions
+        "extensionButton.prominentBackground": "#019c85",   
+                    //footer
+        "statusBar.background": "#1a1919",
+        "statusBar.foreground": "#019c85",
+                    //edditor
+        "editor.background": "#19282f",
+        "editorLineNumber.foreground": "#726969",
+        "editorCursor.foreground": "#00f8f0cb",
+                    //scrollbar
+        "scrollbarSlider.background": "#019c85",
+        "scrollbarSlider.hoverBackground": "#0f5f4a",
+        "scrollbarSlider.activeBackground": "#0f5f4a",
+
+        "editorSuggestWidget.highlightForeground": "#64FFDA",
+        "textLink.foreground": "#64FFDA",
+        "progressBar.background": "#64FFDA",
+        "pickerGroup.foreground": "#64FFDA",
+        "tab.activeBorder": "#64FFDA",
+        "notificationLink.foreground": "#64FFDA",
+        "editorWidget.resizeBorder": "#64FFDA",
+        "editorWidget.border": "#64FFDA",
+        "settings.modifiedItemIndicator": "#64FFDA",
+        "settings.headerForeground": "#64FFDA",
+        "panelTitle.activeBorder": "#64FFDA",
+        "breadcrumb.activeSelectionForeground": "#64FFDA",
+ 
+        "editor.findMatchBorder": "#64FFDA",
+        "selection.background": "#64FFDA40"
+    },
+    "materialTheme.accent": "Bright Teal",
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Community Material Theme High Contrast",
+    "workbench.preferredLightColorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+    "markdown.preview.fontSize": 16,
+    "editor.fontLigatures": null,
+    "editor.fontSize": 10
+}
