@@ -12,54 +12,139 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "git.suggestSmartCommit": false,
     "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": true,
+    "breadcrumbs.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
     "workbench.sideBar.location": "left",
     "workbench.colorCustomizations": {
-                    // left menu
-        "activityBar.inactiveForeground": "#019c85",
+
+        // left menu
+        "activityBar.inactiveForeground": "#017967",
         "activityBar.foreground": "#0f5f4a",
-        "activityBar.activeBorder": "#00ffbb",
-        "activityBar.activeFocusBorder": "#00e5ff",
-        "activityBar.background": "#1a1919",
-                    // left menu badge
-        "activityBarBadge.background": "#00f2ff",
+        "activityBar.activeBorder": "#01c490",
+        "activityBar.activeFocusBorder": "#019fb1",
+        "activityBar.background": "#1d1b1b",
+        "activityBar.border": "#000000",                    // left menu border
+
+        // left menu badge
+        "activityBarBadge.background": "#00adb6",
         "activityBarBadge.foreground": "#000000",
-                    //navbar
+
+        //navbar
         "menubar.selectionForeground": "#0f5f4a",
-        "titleBar.activeBackground": "#1a1919",
+        "titleBar.activeBackground": "#1d1b1b",
         "titleBar.activeForeground": "#019c85",
-                    //menu list
+        "titleBar.border": "#000000",                       // navbar border
+        "titleBar.inactiveBackground": "#1d1b1b",
+        "titleBar.inactiveForeground": "#019c85",
+
+        //menu list
         "menu.separatorBackground": "#048663",
-        "menu.selectionForeground": "#00ffbb",
+        "menu.selectionForeground": "#00a77a",
         "menu.foreground": "#019c85",
-        "list.highlightForeground": "#00ffbb",
-        "list.activeSelectionForeground": "#00ffbb",
+        "menu.selectionBorder": "#048663",
+        "menu.background": "#1d1b1b",
+
+        //extensions list
+        "list.highlightForeground": "#00aa7d",
+        "list.activeSelectionForeground": "#00c792",
         "list.inactiveSelectionForeground": "#048663",
         "list.activeSelectionBackground": "#1a1919",
-                    //extensions
-        "extensionButton.prominentBackground": "#019c85",   
-                    //footer
-        "statusBar.background": "#1a1919",
-        "statusBar.foreground": "#019c85",
-                    //edditor
+        "list.focusBackground": "#1a1919",
+        "list.hoverBackground": "#1a1919",
+        "list.inactiveSelectionBackground": "#1a1919",
+        "sideBar.foreground": "#00926b",                    // extension list text color
+        "sideBar.background": "#1d1b1b",                    // extension list background
+        "sideBarSectionHeader.background": "#1d1b1b",       // extension section background
+        "sideBarSectionHeader.border": "#000000",
+
+        //extensions
+        "extensionButton.prominentBackground": "#019c85",
+        "extensionButton.prominentForeground": "#1a1919",
+        "extensionButton.prominentHoverBackground": "#0f5f4a",
+        "list.hoverForeground": "#019c85",
+
+        //footer
+        "statusBar.foreground": "#019c85",                  // footer font color
+        "statusBar.background" : "#1d1b1b",
+        "statusBar.noFolderBackground" : "#1d1b1b",
+        "statusBar.debuggingBackground": "#1d1b1b",
+        "statusBar.border": "#000000",                      // footer border
+
+        //edditor
         "editor.background": "#19282f",
-        "editorLineNumber.foreground": "#726969",
-        "editorCursor.foreground": "#00f8f0cb",
-                    //scrollbar
-        "scrollbarSlider.background": "#019c85",
-        "scrollbarSlider.hoverBackground": "#0f5f4a",
-        "scrollbarSlider.activeBackground": "#0f5f4a",
+        "editorLineNumber.foreground": "#726969",           // line number color
+        "editorCursor.foreground": "#00f8f0cb",             // coursor color
+
+        //slider
+        "scrollbarSlider.background": "#0f5f4a",
+        "scrollbarSlider.hoverBackground": "#019c85",
+        "scrollbarSlider.activeBackground": "#019c85",
+
+        //tab
+        "tab.activeBorder": "#019c85",
+        "tab.hoverBorder": "#019c85",
+        "tab.activeBackground": "#333131",
+        "tab.hoverBackground": "#333131",
+        "tab.activeForeground": "#088563",                  // tab active font color
+        "tab.inactiveForeground": "#019c85",                // tab inactive font color
+        "tab.inactiveBackground": "#1d1b1b",
+        "editorGroupHeader.tabsBackground": "#1d1b1b",      // tabs background color
+        "editorGroupHeader.tabsBorder": "#000000",          // tabs border
+        "editorGroupHeader.noTabsBackground": "#1d1b1b",
+
+        //breadcumb
+        "breadcrumb.background": "#1d1b1b",
+        "breadcrumb.foreground": "#019c85",
+        "breadcrumb.focusForeground": "#0f5f4a",
+        "breadcrumbPicker.background": "#1d1b1b",
+
+        //notifications
+        "notifications.background": "#1d1b1b",
+        "notificationCenterHeader.background": "#292929",
+        "notifications.foreground": "#019c85",
+        "notificationCenterHeader.foreground": "#05a58d",
+        "notificationsInfoIcon.foreground": "#026eac",
+        "notificationsErrorIcon.foreground": "#ac0202",
+        "notificationsWarningIcon.foreground": "#b99f0c",
+        "notifications.border": "#048663",
+
+        //terminal
+        "input.background": "#1d1b1b",
+        "terminal.background": "#1d1b1b",
+        "terminal.foreground": "#019c85",
+        "terminalCursor.foreground": "#00f8f0cb",
+        "panel.border": "#000000",
+        "panel.background": "#131212",
+        "panelTitle.inactiveForeground": "#019c85",
+        "panelTitle.activeForeground": "#127258",
+
+
+        "problemsErrorIcon.foreground": "#ac0202",
+        "problemsInfoIcon.foreground": "#026eac",
+        "problemsWarningIcon.foreground": "#b99f0c",
+
+        //dropdown
+        "dropdown.background": "#1d1b1b",
+        "dropdown.foreground": "#019c85",
+        "dropdown.listBackground": "#1d1b1b",
+        "dropdown.border": "#000000",
+
+        //debug
+
+        // intelisence
+        "editorSuggestWidget.selectedBackground": "#333131",
+        "editorSuggestWidget.foreground": "#019c85",
+        "editorSuggestWidget.background": "#1d1b1b",
 
         "editorSuggestWidget.highlightForeground": "#64FFDA",
         "textLink.foreground": "#64FFDA",
         "progressBar.background": "#64FFDA",
         "pickerGroup.foreground": "#64FFDA",
-        "tab.activeBorder": "#64FFDA",
+
         "notificationLink.foreground": "#64FFDA",
         "editorWidget.resizeBorder": "#64FFDA",
         "editorWidget.border": "#64FFDA",
@@ -67,7 +152,8 @@
         "settings.headerForeground": "#64FFDA",
         "panelTitle.activeBorder": "#64FFDA",
         "breadcrumb.activeSelectionForeground": "#64FFDA",
- 
+
+
         "editor.findMatchBorder": "#64FFDA",
         "selection.background": "#64FFDA40"
     },
@@ -75,8 +161,18 @@
     "workbench.preferredHighContrastColorTheme": "Default Dark+",
     "workbench.preferredDarkColorTheme": "Community Material Theme High Contrast",
     "workbench.preferredLightColorTheme": "Community Material Theme Darker High Contrast",
-    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+    "workbench.colorTheme": "Community Material Theme Darker",
+                    // fonts
     "markdown.preview.fontSize": 16,
-    "editor.fontLigatures": null,
-    "editor.fontSize": 10
+    "editor.fontSize": 10,
+    "terminal.integrated.fontSize": 11,
+    "workbench.statusBar.visible": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "java.semanticHighlighting.enabled": true,
+    "workbench.editorAssociations": [
+
+    ],
+    "trailing-spaces.trimOnSave": true
 }
